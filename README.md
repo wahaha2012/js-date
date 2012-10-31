@@ -18,4 +18,4 @@ jsDate is written in javascript, and it makes javascript date process like [php 
 - var customString=jsDate.date('\\\D\\\a\\\y:l',new Date('2012-02-14 15:30:26'));
 - var constellation=jsDate.date('e');
 
-More API can refer to [PHP Date](http://php.net/manual/en/function.date.php "php date")
+More API please refer to [PHP Date](http://php.net/manual/en/function.date.php "php date")
