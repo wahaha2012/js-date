@@ -1,7 +1,7 @@
 jsDate
 ======
 
-jsDate is write in javascript, and make javascript date process like [php date function](http://php.net/manual/en/function.date.php "php date").
+jsDate is written in javascript, and it makes javascript date process like [php date function](http://php.net/manual/en/function.date.php "php date").
 
 ## How to use ##
 
