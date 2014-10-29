@@ -1,0 +1,24 @@
+{
+  "name": "js-date",
+  "version": "0.1.1",
+  "description": "jsDate is written in javascript, and it makes javascript date process like php date function.",
+  "main": "js-date-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wahaha2012/js-date.git"
+  },
+  "keywords": [
+    "javascript",
+    "date",
+    "format"
+  ],
+  "author": "wxwdesign",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wahaha2012/js-date/issues"
+  },
+  "homepage": "https://github.com/wahaha2012/js-date"
+}
