@@ -12,7 +12,7 @@ $ npm install js-date --save
 ```
 
 ```javascript
-# jsDate.date api
+// jsDate.date api
 [window.]jsDate.date([StringFormat], [dateTimeOffset], [dateTime]);
 ```
 
