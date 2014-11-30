@@ -19,12 +19,10 @@ $ npm install js-date --save
 ###Example###
 
 ```javascript
-jsDate = require("js-date")
-jsDate.date("Y/m/d H:i:s")
-```
+var jsDate = require("js-date");
 
-```javascript
 - var today=jsDate.date('Y-m-d');
+- var nowTime = jsDate.date("Y/m/d H:i:s");
 - var yesterday=jsDate.date('Y-m-d','-1day');
 - var twoWeeksLater=jsDate.date('Y-m-d','+2week');
 - var customTime=jsDate.date('Y/m/d H:i:s',new Date('2012-02-14 15:30:20'));
