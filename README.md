@@ -32,6 +32,7 @@ jsDate.date([dateFormatString], [dateTimeOffset], [dateTime]);
 
 ## Example
 
+```javascript
 var today=jsDate.date('Y-m-d'),
     nowTime = jsDate.date("Y/m/d H:i:s"),
     yesterday=jsDate.date('Y-m-d','-1day'),
