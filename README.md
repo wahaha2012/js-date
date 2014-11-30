@@ -4,7 +4,7 @@ jsDate
 jsDate is written in javascript, and it makes javascript date process like [php date function](http://php.net/manual/en/function.date.php "php date").
 
 
-## How to use ##
+## How to use
 
 ```bash
 # for nodejs
@@ -12,16 +12,25 @@ $ npm install js-date --save
 ```
 
 ```javascript
+//use js-date as module
+var jsDate = require("js-date");
+```
+
+```html
+<!--load js-date as normal script file-->
+<script src="./js-date.js"></script>
+```
+
+## API
+
+```javascript
 // jsDate.date api
-[window.]jsDate.date([StringFormat], [dateTimeOffset], [dateTime]);
+jsDate.date([dateFormatString], [dateTimeOffset], [dateTime]);
 ```
 
 
 
-###Example###
-
-```javascript
-var jsDate = require("js-date");
+## Example
 
 var today=jsDate.date('Y-m-d'),
     nowTime = jsDate.date("Y/m/d H:i:s"),
